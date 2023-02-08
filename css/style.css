@@ -1,0 +1,126 @@
+/* AUTHOR:AKHIL RAJ
+DATE:07/02/2023 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.banner {
+    background-image: url(../images/img1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0;
+}
+/* .header {
+    text-align: right;
+} */
+h3::before {
+    content: "{";
+    color: red;
+}
+h3::after {
+    content: "}";
+    color: red;
+}
+.gd {
+    position: relative;
+}
+.course {
+    background-color: #1e2531;
+    color: #5b8fb9;
+    height: fit-content;
+    width: 50%;
+    height: 45vh;
+    padding: 5%;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 38%;
+    /* top: 25%;
+    left: 35%; */
+}
+p {
+    text-align: center;
+    color: #252525;
+}
+
+.course1 {
+    background-image: url("../images/modulebg.jpg");
+    /* width: 100%; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* padding: 0;
+    margin: 0; */
+}
+.why-love {
+    width: 50%;
+}
+.img {
+    width: 100%;
+}
+
+.coursedeatils {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+    padding: 20px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.img-main {
+    min-height: 500px;
+}
+.img-left {
+    background-image: url("../images/testsbg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.img-right {
+    background-image: url("../images/intrvwbg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.left,
+.right {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 500px;
+    padding: 150px;
+}
+.para {
+    color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+    * {
+        box-sizing: border-box;
+    }
+    .banner {
+        background-image: none;
+        background-color: lightgray;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .course {
+        position: static;
+        margin: 0;
+    }
+    .f1 {
+        display: none;
+    }
+    .course {
+        position: static;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .why-love {
+        width: 100%;
+    }
+}
